@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img class="JCicon" src="/assets/images/HKiconStrYel.png" alt="JC Icon"></a>
+
+        <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" aria-controls="navList" [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navList" [ngbCollapse]="!isCollapsed">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" [ngx-scroll-to]="'#top'">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" [ngx-scroll-to]="'#about'">About</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#" [ngx-scroll-to]="'#experience'">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" [ngx-scroll-to]="'#contact'">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" [ngx-scroll-to]="'#projects'">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>

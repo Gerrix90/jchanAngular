@@ -1,0 +1,149 @@
+.jumbotron {
+    position: relative;
+    background-image: linear-gradient(to bottom, black 0%, transparent 25%, transparent 75%, black 100%), url("/assets/images/macMap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    background-position: center center;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+}
+h1{
+    font-size: 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+#contact i {
+    border-radius: 4px;
+    border: 5px solid goldenrod;
+    background-color: goldenrod;
+    padding: 5px;
+}
+.thumbnail{
+    background-color: gainsboro;
+    padding: 0px;
+    border-radius: 5px;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.blackbox {
+    background-color: black;
+    color: white;
+}
+.col-sm-4 h5 {
+    margin-top: 10px;
+}
+.blackbar{
+    height: 15px;
+    width: 100%;
+    background-color: black;
+}
+#about {
+    position: relative;
+    background-image: linear-gradient(to bottom, black 0%, black 5%, transparent 15%, transparent 85%, black 100%), linear-gradient(to right, black 0%, transparent 3%, transparent 97%, black 100%), url('/assets/images/troopLight35.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about h2 { 
+    border-bottom: 3px solid black;
+}
+#experience {
+    background-image: linear-gradient(to bottom, black 0%, transparent 3%, transparent 97%, black 100%), url("/assets/images/tallOffice50.png");
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+#experience h2 { 
+    border-bottom: 3px solid black;
+}
+#contact {
+    padding-top: 20px;
+}
+#contact h2 { 
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+}
+#contact h4 { 
+    border-bottom: 3px solid white;
+    margin-bottom: 15px;
+}
+#connect .col-sm-4 {
+    text-align: center;
+}
+#connect i {
+    height: 68px;
+    width: 68px;
+    text-align: center;
+}
+#info i {
+    height: 36px;
+    width: 36px;
+    text-align: center;
+}
+#info li {
+    margin-top: 5px;
+}
+#skills { 
+    background: linear-gradient(to bottom, black 0%, transparent 5%, transparent 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#skills h2 { 
+    border-bottom: 3px solid black;
+}
+#projects {
+    background: linear-gradient(to bottom, transparent 0%, transparent 95%, black 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#projects h2 {
+    border-bottom: 3px solid black;
+}
+#projects .p1 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#projects .p2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    height: 200px;
+}
+.card-header {
+    font-size: 20px;
+    color: black;
+}
+.card {
+    border: 1px solid black;
+}
+.card-text {
+    text-align: left;
+}
+.thumbnail {
+    height: 200px;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+}

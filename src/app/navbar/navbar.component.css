@@ -1,0 +1,16 @@
+.navbar {
+    background: linear-gradient(to bottom, black 0%, black 94%, transparent 100%);
+    color: grey;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    padding-bottom: 10px;
+}
+.navbar li button:hover, .navbar-nav li.active button {
+    color: gainsboro;
+}
+button {
+    border-radius: 0;
+    background-color: black;
+    color: grey;
+}

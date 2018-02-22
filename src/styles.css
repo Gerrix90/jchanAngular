@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+i {
+    color: black
+}
+
+.JCicon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
