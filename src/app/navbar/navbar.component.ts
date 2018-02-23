@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @Component({
   selector: 'app-navbar',
