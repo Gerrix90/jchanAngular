@@ -141,6 +141,9 @@ h1{
     border-bottom-right-radius: 5px;    
     height: 200px;
 }
+.portfolio-item {
+    margin-top: 15px;
+}
 .card-header {
     font-size: 20px;
     color: black;
