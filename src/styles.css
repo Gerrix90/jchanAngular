@@ -7,12 +7,8 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background: black;
 }
-
-i {
-    color: black
-}
-
 .JCicon{
     height: 40px;
     width: 40px;

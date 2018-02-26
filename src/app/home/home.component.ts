@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgsRevealModule } from 'ng-scrollreveal';
 
 @Component({
   selector: 'app-home',
