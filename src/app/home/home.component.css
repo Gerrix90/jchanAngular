@@ -6,16 +6,15 @@ h1 {
     background-image: linear-gradient(to bottom, black 0%, transparent 25%, transparent 75%, black 100%), url("/assets/images/macMap.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 0px;
     background-position: center center;
     margin-top: 45px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
     padding-top: 20%;
     padding-bottom: 20%;
-    text-shadow: 4px 4px white;
 }
 .text-black {
     color: black;
+    text-shadow: 4px 4px white;
 }
 i {
     color: black
@@ -87,6 +86,7 @@ i {
     background: black;
     background-size: cover;
     background-position: center center;
+    padding-top: 25px;
     color: white;
 }
 #about h2 { 
